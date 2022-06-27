@@ -1,4 +1,4 @@
-package com.jhlee.book.springboot2webservice;
+package com.jhlee.book.webservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

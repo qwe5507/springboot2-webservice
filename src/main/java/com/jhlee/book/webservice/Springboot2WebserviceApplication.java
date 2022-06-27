@@ -1,4 +1,4 @@
-package com.jhlee.book.springboot2webservice;
+package com.jhlee.book.webservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
