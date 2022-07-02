@@ -1,9 +1,16 @@
 spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/webservicedb
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
   jpa:
     show-sql: true
+    hibernate:
+      ddl-auto: update
     properties:
       hibernate:
-#        format_sql: true
-#        show_sql: true
-#        default_batch_fetch_size: 100
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
