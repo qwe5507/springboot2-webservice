@@ -7,6 +7,8 @@ build/
 
 gradlew.bat
 settings.gradle
+application-oauth.yml
+
 
 ### STS ###
 .apt_generated
