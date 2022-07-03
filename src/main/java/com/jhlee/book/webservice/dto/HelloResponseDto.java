@@ -1,4 +1,4 @@
-package com.jhlee.book.webservice.web.dto;
+package com.jhlee.book.webservice.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

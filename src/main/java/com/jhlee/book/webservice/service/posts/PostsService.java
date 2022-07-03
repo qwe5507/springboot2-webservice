@@ -1,11 +1,11 @@
 package com.jhlee.book.webservice.service.posts;
 
-import com.jhlee.book.webservice.web.domain.posts.Posts;
-import com.jhlee.book.webservice.web.domain.posts.PostsRepository;
-import com.jhlee.book.webservice.web.dto.PostsListResponseDto;
-import com.jhlee.book.webservice.web.dto.PostsResponseDto;
-import com.jhlee.book.webservice.web.dto.PostsSaveRequestDto;
-import com.jhlee.book.webservice.web.dto.PostsUpdateRequestDto;
+import com.jhlee.book.webservice.domain.posts.Posts;
+import com.jhlee.book.webservice.domain.posts.PostsRepository;
+import com.jhlee.book.webservice.dto.PostsListResponseDto;
+import com.jhlee.book.webservice.dto.PostsResponseDto;
+import com.jhlee.book.webservice.dto.PostsSaveRequestDto;
+import com.jhlee.book.webservice.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,10 +1,9 @@
 package com.jhlee.book.webservice.web;
 
-import com.jhlee.book.webservice.web.domain.posts.Posts;
-import com.jhlee.book.webservice.web.domain.posts.PostsRepository;
-import com.jhlee.book.webservice.web.dto.PostsSaveRequestDto;
-import com.jhlee.book.webservice.web.dto.PostsUpdateRequestDto;
-import org.assertj.core.api.Assertions;
+import com.jhlee.book.webservice.domain.posts.Posts;
+import com.jhlee.book.webservice.domain.posts.PostsRepository;
+import com.jhlee.book.webservice.dto.PostsSaveRequestDto;
+import com.jhlee.book.webservice.dto.PostsUpdateRequestDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +18,6 @@ import org.springframework.http.ResponseEntity;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 //WebMvcTest는 Jpa가 동작하지 않으므로 Spring Boot Test로 진행
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)

@@ -1,4 +1,4 @@
-package com.jhlee.book.webservice.web.domain;
+package com.jhlee.book.webservice.domain;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

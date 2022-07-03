@@ -1,9 +1,9 @@
 package com.jhlee.book.webservice.web;
 
 import com.jhlee.book.webservice.service.posts.PostsService;
-import com.jhlee.book.webservice.web.dto.PostsResponseDto;
-import com.jhlee.book.webservice.web.dto.PostsSaveRequestDto;
-import com.jhlee.book.webservice.web.dto.PostsUpdateRequestDto;
+import com.jhlee.book.webservice.dto.PostsResponseDto;
+import com.jhlee.book.webservice.dto.PostsSaveRequestDto;
+import com.jhlee.book.webservice.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

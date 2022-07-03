@@ -1,6 +1,6 @@
-package com.jhlee.book.webservice.web.dto;
+package com.jhlee.book.webservice.dto;
 
-import com.jhlee.book.webservice.web.domain.posts.Posts;
+import com.jhlee.book.webservice.domain.posts.Posts;
 import lombok.Getter;
 
 @Getter

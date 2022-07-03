@@ -1,6 +1,6 @@
-package com.jhlee.book.webservice.web.domain.posts;
+package com.jhlee.book.webservice.domain.posts;
 
-import com.jhlee.book.webservice.web.domain.BaseTimeEntity;
+import com.jhlee.book.webservice.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
