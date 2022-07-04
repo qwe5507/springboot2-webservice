@@ -1,4 +1,7 @@
 spring:
+  session:
+    store-type: jdbc
+#    jdbc.initialize-schema: always
   profiles:
     include: oauth
 
