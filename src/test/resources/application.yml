@@ -10,7 +10,7 @@ spring:
   session:
     store-type: jdbc
   datasource:
-    url: jdbc:h2:tcp://localhost/~/webservicedb;MODE=MYSQL
+    url: jdbc:h2:mem:testdb;MODE=MYSQL
     username: sa
     password:
     driver-class-name: org.h2.Driver
