@@ -1,12 +1,4 @@
 spring:
-  config:
-    activate:
-      on-profile: real
-  profiles:
-    group:
-      real:
-        - oauth
-        - real-db
 
   session:
     store-type: jdbc
@@ -14,3 +6,5 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  profiles:
+    include: real-db
