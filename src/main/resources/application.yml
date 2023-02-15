@@ -4,8 +4,8 @@ spring:
     jdbc.initialize-schema: always
 #      데이터베이스가 embeded 데이터베이스가 아니라면 자동생성되지 않으므로 위의 설정 추가
 
-  profiles:
-    include: oauth
+#  profiles:
+#    include: oauth
 
   h2:
     console:
