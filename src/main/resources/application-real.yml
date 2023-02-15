@@ -1,9 +1,8 @@
 spring:
   profiles:
-    group:
-      real:
-        - oauth
-        - real-db
+    include:
+      - oauth
+      - real-db
 
   session:
     store-type: jdbc
