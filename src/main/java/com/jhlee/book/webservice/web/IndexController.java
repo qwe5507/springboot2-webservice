@@ -2,15 +2,13 @@ package com.jhlee.book.webservice.web;
 
 import com.jhlee.book.webservice.config.auth.LoginUser;
 import com.jhlee.book.webservice.config.auth.dto.SessionUser;
-import com.jhlee.book.webservice.service.posts.PostsService;
 import com.jhlee.book.webservice.dto.PostsResponseDto;
+import com.jhlee.book.webservice.service.posts.PostsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-
-import javax.servlet.http.HttpSession;
 
 @RequiredArgsConstructor
 @Controller
@@ -41,6 +39,4 @@ public class IndexController {
     public String postsSave() {
         return "posts-save";
     }
-
-
 }
