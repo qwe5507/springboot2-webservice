@@ -38,3 +38,5 @@ nohup java -jar \
     -Dspring.config.additional-location=optional:classpath:/application-real.yml,optional:file:/home/ec2-user/app/application-oauth.yml,optional:file:/home/ec2-user/app/application-real-db.yml \
     -Dspring.profiles.active=real \
     $JAR_NAME > $REPOSITORY/nohup.out 2>&1 &
+
+nohup java -jar $JAR_NAME > $REPOSITORY/nohup.out --spring.config.location=optional:classpath:/application.yml --spring.config.additional-location=optional:classpath:/application-real.yml,optional:file:/home/ec2-user/app/application-oauth.yml,optional:file:/home/ec2-user/app/application-real-db.yml --spring.profiles.active=real 2>&1 &
