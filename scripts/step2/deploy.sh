@@ -40,4 +40,4 @@ echo "> $JAR_NAME 실행"
 
 # 2.4버전 이후 추가적인 config location 지정은 spring.config.additional-location으로 해야 함
 # optional은 설정파일이 있을 수도, 없을수도 있을 때 아래 설정에서 optional로 설정 하였지만, 안줘도 된다.
-nohup java -jar --spring.config.location=optional:classpath:/application.yml --spring.config.additional-location=optional:classpath:/application-real.yml,optional:file:/home/ec2-user/app/application-oauth.yml,optional:file:/home/ec2-user/app/application-real-db.yml --spring.profiles.active=real $REPOSITORY/$JAR_NAME > $REPOSITORY/nohup.out 2>&1 &
+nohup java -jar --spring.config.location=optional:classpath:/application.yml --spring.config.additional-location=optional:classpath:/application-real.yml,optional:file:/home/ec2-user/app/application-oauth.yml,optional:file:/home/ec2-user/app/application-real-db.yml --spring.profiles.active=real /$JAR_NAME > $REPOSITORY/nohup.out 2>&1 &
