@@ -27,6 +27,7 @@ IDLE_PROFILE=$(find_idle_profile)
 
 echo "> $JAR_NAME 를 profile=$IDLE_PROFILE 로 실행합니다."
 
+
 # 2.4버전 이후 추가적인 config location 지정은 spring.config.additional-location으로 해야 함
 # optional은 설정파일이 있을 수도, 없을수도 있을 때 아래 설정에서 optional로 설정 하였지만, 안줘도 된다.
 nohup java -jar $JAR_NAME > $REPOSITORY/nohup.out --spring.config.location=optional:classpath:/application.yml --spring.config.additional-location=optional:classpath:/application-$IDLE_PROFILE.yml,optional:file:/home/ec2-user/app/application-oauth.yml,optional:file:/home/ec2-user/app/application-real-db.yml --spring.profiles.active=$IDLE_PROFILE 2>&1 &
